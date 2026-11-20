@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640" preserveAspectRatio="xMidYMid slice">
+  <title>밤하늘 아래 텐트와 모닥불</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10231A"/>
+      <stop offset=".5" stop-color="#2B5640"/>
+      <stop offset=".82" stop-color="#C98552"/>
+      <stop offset="1" stop-color="#E9A863"/>
+    </linearGradient>
+    <radialGradient id="fireGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#F8B24A" stop-opacity=".75"/>
+      <stop offset=".45" stop-color="#E07B39" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#E07B39" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FBEFD0" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#FBEFD0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="640" fill="url(#sky)"/>
+
+  <!-- 별 -->
+  <g fill="#FFFFFF">
+    <circle cx="820" cy="60" r="2" opacity=".9"/><circle cx="905" cy="128" r="1.5" opacity=".7"/>
+    <circle cx="990" cy="48" r="2.2" opacity=".9"/><circle cx="1075" cy="150" r="1.4" opacity=".6"/>
+    <circle cx="1150" cy="82" r="1.8" opacity=".8"/><circle cx="1230" cy="36" r="1.5" opacity=".7"/>
+    <circle cx="1460" cy="70" r="2" opacity=".9"/><circle cx="1530" cy="160" r="1.5" opacity=".6"/>
+    <circle cx="1555" cy="40" r="1.4" opacity=".7"/><circle cx="1405" cy="210" r="1.3" opacity=".5"/>
+    <circle cx="640" cy="90" r="1.6" opacity=".6"/><circle cx="520" cy="40" r="1.8" opacity=".7"/>
+    <circle cx="380" cy="110" r="1.4" opacity=".5"/><circle cx="250" cy="55" r="1.8" opacity=".6"/>
+    <circle cx="120" cy="130" r="1.4" opacity=".5"/><circle cx="1010" cy="220" r="1.2" opacity=".5"/>
+  </g>
+
+  <!-- 달 -->
+  <circle cx="1330" cy="128" r="120" fill="url(#moonGlow)"/>
+  <circle cx="1330" cy="128" r="46" fill="#F8E7C2"/>
+  <circle cx="1314" cy="116" r="8" fill="#EBD5A6"/>
+  <circle cx="1346" cy="146" r="6" fill="#EBD5A6"/>
+
+  <!-- 먼 산 -->
+  <path d="M0 400 L140 300 L260 360 L420 250 L560 340 L700 270 L860 350 L1000 240 L1150 330 L1290 260 L1440 340 L1600 280 V640 H0 Z" fill="#4E7A5E" opacity=".75"/>
+  <!-- 가까운 산 -->
+  <path d="M0 470 L180 380 L330 440 L520 350 L700 440 L880 370 L1060 450 L1230 380 L1420 450 L1600 390 V640 H0 Z" fill="#2C4F3B"/>
+
+  <!-- 뒤쪽 나무 -->
+  <g fill="#1C3627">
+    <path d="M70 500 L100 410 L130 500 Z"/><path d="M80 450 L100 380 L120 450 Z"/>
+    <path d="M160 510 L196 400 L232 510 Z"/><path d="M172 455 L196 370 L220 455 Z"/>
+    <path d="M840 500 L870 410 L900 500 Z"/><path d="M852 450 L870 385 L888 450 Z"/>
+    <path d="M930 505 L966 395 L1002 505 Z"/><path d="M942 450 L966 360 L990 450 Z"/>
+    <path d="M1500 500 L1532 400 L1564 500 Z"/><path d="M1512 445 L1532 365 L1552 445 Z"/>
+  </g>
+
+  <!-- 땅 -->
+  <path d="M0 540 Q400 500 800 530 T1600 515 V640 H0 Z" fill="#183022"/>
+  <path d="M0 590 Q500 560 1000 585 T1600 575 V640 H0 Z" fill="#10221A"/>
+
+  <!-- 앞쪽 나무 -->
+  <g fill="#0F2018">
+    <path d="M1010 585 L1060 420 L1110 585 Z"/><path d="M1025 500 L1060 360 L1095 500 Z"/><path d="M1038 430 L1060 320 L1082 430 Z"/>
+    <rect x="1054" y="585" width="12" height="20"/>
+    <path d="M1520 590 L1565 440 L1610 590 Z"/><path d="M1533 510 L1565 385 L1597 510 Z"/>
+    <path d="M10 600 L60 440 L110 600 Z"/><path d="M24 520 L60 380 L96 520 Z"/>
+  </g>
+
+  <!-- 모닥불 빛 -->
+  <circle cx="1400" cy="560" r="170" fill="url(#fireGlow)"/>
+
+  <!-- 텐트 -->
+  <g>
+    <path d="M1130 575 L1220 420 L1320 575 Z" fill="#E9DFC8"/>
+    <path d="M1220 420 L1320 575 H1270 Z" fill="#CDBF9F"/>
+    <path d="M1222 470 L1188 575 H1256 Z" fill="#F6C77A"/>
+    <path d="M1222 470 L1188 575 H1206 Z" fill="#E3A95A"/>
+    <path d="M1220 420 L1220 404" stroke="#8B5E3C" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1150 545 L1108 580 M1300 545 L1342 580" stroke="#8B5E3C" stroke-width="2" opacity=".7"/>
+  </g>
+
+  <!-- 모닥불 -->
+  <g>
+    <path d="M1360 584 L1440 566" stroke="#5A3A22" stroke-width="12" stroke-linecap="round"/>
+    <path d="M1362 566 L1440 586" stroke="#6B4528" stroke-width="12" stroke-linecap="round"/>
+    <path d="M1400 470 C1430 505 1442 528 1428 556 C1420 572 1380 572 1372 556 C1360 530 1380 515 1386 495 C1392 512 1398 515 1400 470 Z" fill="#E07B39"/>
+    <path d="M1402 505 C1420 527 1424 545 1414 559 C1408 567 1392 567 1387 559 C1380 545 1392 532 1396 520 C1400 530 1402 528 1402 505 Z" fill="#F8B24A"/>
+    <path d="M1401 532 C1409 543 1410 552 1405 560 H1396 C1392 552 1396 545 1401 532 Z" fill="#FDE6A3"/>
+    <circle cx="1418" cy="452" r="3" fill="#F8B24A"/><circle cx="1386" cy="436" r="2.4" fill="#F8B24A" opacity=".8"/>
+    <circle cx="1432" cy="418" r="2" fill="#FDE6A3" opacity=".7"/>
+  </g>
+</svg>

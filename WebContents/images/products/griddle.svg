@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>무쇠 그리들 팬</title>
+  <rect width="800" height="500" fill="#F3E6DC"/>
+  <circle cx="135" cy="100" r="40" fill="#FFFFFF" opacity=".6"/>
+  <path d="M0 400 Q200 370 400 392 T800 385 V500 H0 Z" fill="#E8D3C3"/>
+  <ellipse cx="400" cy="395" rx="290" ry="26" fill="#1F3D2B" opacity=".1"/>
+  <path d="M110 300 H170 M630 300 H690" stroke="#2B2B2B" stroke-width="22" stroke-linecap="round"/>
+  <ellipse cx="400" cy="320" rx="250" ry="70" fill="#2B2B2B"/>
+  <ellipse cx="400" cy="300" rx="250" ry="70" fill="#3A3A3A"/>
+  <ellipse cx="400" cy="300" rx="222" ry="56" fill="#2B2B2B"/>
+  <!-- 계란 -->
+  <path d="M290 290 C270 270 300 250 330 258 C360 250 380 270 365 290 C355 310 300 312 290 290 Z" fill="#FFFFFF"/>
+  <ellipse cx="328" cy="280" rx="17" ry="12" fill="#F59E0B"/>
+  <!-- 고기 -->
+  <rect x="400" y="268" width="90" height="34" rx="12" fill="#B4472A" transform="rotate(-6 445 285)"/>
+  <path d="M410 280 L480 272 M412 292 L482 284" stroke="#8C3420" stroke-width="4" transform="rotate(-6 445 285)"/>
+  <rect x="470" y="300" width="70" height="28" rx="10" fill="#C2552F" transform="rotate(8 505 314)"/>
+  <!-- 채소 -->
+  <circle cx="530" cy="270" r="13" fill="#2F6B45"/><circle cx="550" cy="285" r="11" fill="#7FA58A"/>
+  <path d="M410 215 C400 230 420 235 410 250 M440 210 C430 225 450 232 440 248" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round" opacity=".8"/>
+</svg>

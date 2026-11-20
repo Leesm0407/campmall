@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- 노지마켓 디자인 파일 (Dreamweaver CS6용). 실제로 동작하는 사이트는 상위 폴더의 .jsp 파일입니다. -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>상품 수정 | 노지마켓</title>
+<link rel="icon" type="image/png" href="images/logo-mark.png">
+<link rel="stylesheet" href="css/design.css">
+</head>
+<body class="admin-body">
+<nav class="admin-nav" aria-label="관리자 메뉴">
+	<a href="admin_index.html" class="admin-brand">
+		<span class="mark"><img src="images/logo-mark.png" alt="" width="44" height="44"></span>
+		노지마켓 관리자
+	</a>
+	<a href="admin_index.html" class="menu ">관리자 홈</a>
+	<a href="admin_productList.html" class="menu active">상품 관리</a>
+	<a href="admin_orderList.html" class="menu ">주문 관리</a>
+	<a href="admin_userList.html" class="menu ">회원 관리</a>
+	<a href="index.html" class="menu to-user">사용자 화면으로 →</a>
+</nav>
+<main class="admin-main">
+	<div class="admin-top">
+		<div>
+			<h1>상품 수정</h1>
+			<p>바꾼 내용은 바로 사용자 화면에 반영돼요.</p>
+		</div>
+		<div class="admin-user">
+			<span><b>관리자</b>님</span>
+			<a href="index.html" class="btn btn-gray">로그아웃</a>
+		</div>
+	</div>
+	<form class="form-card" name="productForm" action="admin_productList.html" method="post"
+	      enctype="multipart/form-data">
+		<input type="hidden" name="productId" value="1">
+		<div class="field full">
+			<label for="p-name">상품 이름</label>
+			<input id="p-name" class="input" type="text" name="name" maxlength="100" placeholder="솔바람 패밀리 돔 텐트 4~5인" value="솔바람 패밀리 돔 텐트 4~5인">
+		</div>
+		<div class="field">
+			<label for="p-cat">카테고리</label>
+			<select id="p-cat" class="select" name="category">
+				<option selected>텐트·타프</option>
+				<option >침낭·매트</option>
+				<option >캠핑 가구</option>
+				<option >버너·조리</option>
+				<option >랜턴·조명</option>
+			</select>
+		</div>
+		<div class="field">
+			<label for="p-price">가격 (원)</label>
+			<input id="p-price" class="input" type="number" name="price" min="100" max="10000000" step="100" placeholder="59000" value="289000">
+		</div>
+		<div class="field">
+			<label for="p-stock">재고 (개)</label>
+			<input id="p-stock" class="input" type="number" name="stock" min="0" max="9999" placeholder="10" value="12">
+			<span class="help">0으로 하면 품절, 1~3개는 품절 임박으로 표시돼요.</span>
+		</div>
+		<div class="field">
+			<label for="p-image">상품 사진</label>
+			<input id="p-image" class="input" type="file" name="image" accept=".png,.jpg,.jpeg,.gif,.webp" style="padding-top: 11px;">
+			<span class="help">png·jpg·gif·webp, 5MB 이하. 가로가 긴 사진(16:10)을 권장해요.</span>
+			<span class="current-photo"><img src="images/products/tent-dome.png" alt="" width="800" height="500">지금 사진: tent-dome.svg<br>새 사진을 고르지 않으면 지금 사진을 그대로 써요.</span>
+		</div>
+		<div class="field full">
+			<label for="p-desc">상품 설명</label>
+			<textarea id="p-desc" class="textarea" name="description" rows="5" maxlength="1000">앞뒤로 큰 출입문이 있어 바람이 잘 통하는 4~5인용 돔 텐트예요. 폴 2개를 X자로 끼우기만 하면 혼자서도 15분 안에 칠 수 있어요. 내수압 3,000mm 플라이 포함.</textarea>
+		</div>
+		<div class="full button-row">
+			<a href="admin_productList.html" class="btn btn-gray">취소</a>
+			<button type="submit" class="btn btn-forest">수정 저장</button>
+		</div>
+	</form>
+</main>
+</body>
+</html>

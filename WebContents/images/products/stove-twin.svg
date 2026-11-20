@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>투버너 가스 스토브</title>
+  <rect width="800" height="500" fill="#F3E6DC"/>
+  <circle cx="135" cy="100" r="40" fill="#FFFFFF" opacity=".6"/>
+  <path d="M0 400 Q200 370 400 392 T800 385 V500 H0 Z" fill="#E8D3C3"/>
+  <ellipse cx="400" cy="408" rx="270" ry="18" fill="#1F3D2B" opacity=".1"/>
+  <path d="M190 180 L610 180 L610 250 L190 250 Z" fill="#9AA3AD"/>
+  <path d="M190 180 L610 180 L590 195 L210 195 Z" fill="#C9CED4"/>
+  <path d="M150 250 L120 300 M650 250 L680 300" stroke="#9AA3AD" stroke-width="10" stroke-linecap="round"/>
+  <path d="M140 300 L190 250 L610 250 L660 300 Z" fill="#3A463F"/>
+  <rect x="140" y="300" width="520" height="90" rx="10" fill="#2F3B35"/>
+  <ellipse cx="300" cy="275" rx="62" ry="13" fill="#1F2937"/>
+  <ellipse cx="500" cy="275" rx="62" ry="13" fill="#1F2937"/>
+  <path d="M265 272 C270 245 285 238 290 222 C296 238 300 245 300 255 C305 245 312 240 315 228 C322 245 335 255 335 272 Z" fill="#E07B39"/>
+  <path d="M282 272 C285 258 292 252 298 242 C304 252 312 260 318 272 Z" fill="#F8B24A"/>
+  <path d="M465 272 C470 245 485 238 490 222 C496 238 500 245 500 255 C505 245 512 240 515 228 C522 245 535 255 535 272 Z" fill="#E07B39"/>
+  <path d="M482 272 C485 258 492 252 498 242 C504 252 512 260 518 272 Z" fill="#F8B24A"/>
+  <circle cx="230" cy="345" r="16" fill="#C9CED4"/><circle cx="230" cy="345" r="6" fill="#4B5563"/>
+  <circle cx="570" cy="345" r="16" fill="#C9CED4"/><circle cx="570" cy="345" r="6" fill="#4B5563"/>
+  <rect x="330" y="330" width="140" height="30" rx="6" fill="#C2410C"/>
+  <rect x="345" y="342" width="110" height="6" rx="3" fill="#F6C77A"/>
+</svg>

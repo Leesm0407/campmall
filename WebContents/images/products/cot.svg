@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>경량 야전침대</title>
+  <rect width="800" height="500" fill="#F0E9DF"/>
+  <circle cx="660" cy="100" r="40" fill="#FFFFFF" opacity=".6"/>
+  <path d="M0 400 Q200 370 400 392 T800 385 V500 H0 Z" fill="#E3D8C8"/>
+  <ellipse cx="400" cy="408" rx="300" ry="18" fill="#1F3D2B" opacity=".1"/>
+  <path d="M150 320 L200 395 M200 320 L150 395 M600 320 L650 395 M650 320 L600 395 M380 320 L420 395 M420 320 L380 395" stroke="#6B7280" stroke-width="7" stroke-linecap="round"/>
+  <path d="M110 300 L230 240 L700 240 L600 300 Z" fill="#7FA58A"/>
+  <path d="M110 300 L600 300 L600 322 L110 322 Z" fill="#5E8A6C"/>
+  <path d="M600 300 L700 240 L700 262 L600 322 Z" fill="#4E7A5E"/>
+  <path d="M110 300 L230 240 M600 300 L700 240 M110 300 H600 M230 240 H700" stroke="#4B5563" stroke-width="5" stroke-linecap="round"/>
+  <path d="M150 292 L240 248 L330 248 L240 292 Z" fill="#F6F5F1"/>
+  <path d="M160 288 L235 252" stroke="#E5E2DA" stroke-width="4"/>
+</svg>

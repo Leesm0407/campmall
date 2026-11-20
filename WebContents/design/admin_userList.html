@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- 노지마켓 디자인 파일 (Dreamweaver CS6용). 실제로 동작하는 사이트는 상위 폴더의 .jsp 파일입니다. -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>회원 관리 | 노지마켓</title>
+<link rel="icon" type="image/png" href="images/logo-mark.png">
+<link rel="stylesheet" href="css/design.css">
+</head>
+<body class="admin-body">
+<nav class="admin-nav" aria-label="관리자 메뉴">
+	<a href="admin_index.html" class="admin-brand">
+		<span class="mark"><img src="images/logo-mark.png" alt="" width="44" height="44"></span>
+		노지마켓 관리자
+	</a>
+	<a href="admin_index.html" class="menu ">관리자 홈</a>
+	<a href="admin_productList.html" class="menu ">상품 관리</a>
+	<a href="admin_orderList.html" class="menu ">주문 관리</a>
+	<a href="admin_userList.html" class="menu active">회원 관리</a>
+	<a href="index.html" class="menu to-user">사용자 화면으로 →</a>
+</nav>
+<main class="admin-main">
+	<div class="admin-top">
+		<div>
+			<h1>회원 관리</h1>
+			<p>가입한 회원 2명</p>
+		</div>
+		<div class="admin-user">
+			<span><b>관리자</b>님</span>
+			<a href="index.html" class="btn btn-gray">로그아웃</a>
+		</div>
+	</div>
+	<div class="table-card">
+		<table class="data-table compact">
+			<thead>
+				<tr>
+					<th scope="col">아이디</th>
+					<th scope="col">이름</th>
+					<th scope="col">전화번호</th>
+					<th scope="col">가입일</th>
+					<th scope="col" class="right">주문 수</th>
+					<th scope="col">구분</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="strong">admin</td>
+					<td>관리자</td>
+					<td>02-000-0000</td>
+					<td>2026-11-17 19:07</td>
+						<td class="right">0건</td>
+					<td><span class="badge-cat">관리자</span></td>
+				</tr>
+				<tr>
+					<td class="strong">user1</td>
+					<td>김노지</td>
+					<td>010-0000-0000</td>
+					<td>2026-11-17 19:07</td>
+						<td class="right">4건</td>
+					<td><span class="status">회원</span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</main>
+</body>
+</html>

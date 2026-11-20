@@ -1,0 +1,8 @@
+# 줄바꿈을 저장소에서는 LF로 통일, 각자 PC에서는 운영체제에 맞게 (Windows끼리 수정해도 충돌 줄이기)
+* text=auto
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.jar binary

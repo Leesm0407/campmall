@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>패밀리 돔 텐트</title>
+  <rect width="800" height="500" fill="#E7EFE4"/>
+  <circle cx="665" cy="105" r="44" fill="#FFFFFF" opacity=".6"/>
+  <path d="M0 395 Q200 360 400 385 T800 375 V500 H0 Z" fill="#D3E2CF"/>
+  <ellipse cx="400" cy="402" rx="250" ry="20" fill="#1F3D2B" opacity=".1"/>
+  <path d="M250 270 L135 405 M550 270 L665 405" stroke="#8B5E3C" stroke-width="3"/>
+  <path d="M190 400 C225 255 320 165 400 165 C480 165 575 255 610 400 Z" fill="#2F6B45"/>
+  <path d="M400 165 C480 165 575 255 610 400 H470 C470 300 445 210 400 165 Z" fill="#245536"/>
+  <path d="M190 400 C230 300 300 225 400 165" stroke="#1F3D2B" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M610 400 C570 300 500 225 400 165" stroke="#1F3D2B" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M400 225 L318 400 H482 Z" fill="#F6C77A"/>
+  <path d="M400 225 L318 400 H352 Z" fill="#E3A95A"/>
+  <rect x="378" y="180" width="44" height="16" rx="6" fill="#1F3D2B"/>
+  <circle cx="135" cy="405" r="4" fill="#8B5E3C"/><circle cx="665" cy="405" r="4" fill="#8B5E3C"/>
+</svg>

@@ -1,0 +1,25 @@
+<!-- DB 접속 설정 예시
+     이 파일을 같은 폴더에 pool.jocl 이라는 이름으로 복사한 뒤,
+     아래 "내_MySQL_비밀번호"를 자기 PC의 MySQL root 비밀번호로 바꾸세요.
+     (pool.jocl 은 .gitignore 에 있어서 GitHub에 올라가지 않습니다) -->
+<object class="org.apache.commons.dbcp.PoolableConnectionFactory"
+		xmlns="http://apache.org/xml/xmlns/jakarta/commons/jocl">
+
+	<object class="org.apache.commons.dbcp.DriverManagerConnectionFactory">
+		<string value="jdbc:mysql://localhost:3306/campmall?characterEncoding=UTF-8"/>
+		<string value="root"/>
+		<string value="내_MySQL_비밀번호"/>
+	</object>
+
+	<object class="org.apache.commons.pool.impl.GenericObjectPool">
+		<object class="org.apache.commons.pool.PoolableObjectFactory" null="true" />
+	</object>
+
+	<object class="org.apache.commons.pool.KeyedObjectPoolFactory" null="true"/>
+
+	<string null="true"/>
+
+	<boolean value="false"/>
+
+	<boolean value="true"/>
+</object>

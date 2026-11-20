@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- 노지마켓 디자인 파일 (Dreamweaver CS6용). 실제로 동작하는 사이트는 상위 폴더의 .jsp 파일입니다. -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>주문 상세 | 노지마켓</title>
+<link rel="icon" type="image/png" href="images/logo-mark.png">
+<link rel="stylesheet" href="css/design.css">
+</head>
+<body class="admin-body">
+<nav class="admin-nav" aria-label="관리자 메뉴">
+	<a href="admin_index.html" class="admin-brand">
+		<span class="mark"><img src="images/logo-mark.png" alt="" width="44" height="44"></span>
+		노지마켓 관리자
+	</a>
+	<a href="admin_index.html" class="menu ">관리자 홈</a>
+	<a href="admin_productList.html" class="menu ">상품 관리</a>
+	<a href="admin_orderList.html" class="menu active">주문 관리</a>
+	<a href="admin_userList.html" class="menu ">회원 관리</a>
+	<a href="index.html" class="menu to-user">사용자 화면으로 →</a>
+</nav>
+<main class="admin-main">
+	<div class="admin-top">
+		<div>
+			<h1>주문 O-0003 <span class="status st-ship" data-status="배송 중">배송 중</span></h1>
+			<p>2026-11-15 19:07 · 김노지 (user1)</p>
+		</div>
+		<div class="admin-user">
+			<a href="admin_orderList.html" class="btn btn-gray">← 주문 목록</a>
+		</div>
+	</div>
+	<div class="table-card">
+		<table class="data-table compact">
+			<thead>
+				<tr>
+					<th scope="col">상품</th>
+					<th scope="col" class="right">주문 당시 가격</th>
+					<th scope="col" class="right">수량</th>
+					<th scope="col" class="right">금액</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<div class="item-cell">
+								<img src="images/products/sleeping-bag.png" alt="" class="thumb" width="800" height="500">
+							<span class="strong">별밤공방 머미형 동계 침낭</span>
+						</div>
+					</td>
+					<td class="right">119,000원</td>
+					<td class="right">1개</td>
+					<td class="right strong">119,000원</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="item-cell">
+								<img src="images/products/lantern-led.png" alt="" class="thumb" width="800" height="500">
+							<span class="strong">노을빛 충전식 LED 랜턴</span>
+						</div>
+					</td>
+					<td class="right">39,000원</td>
+					<td class="right">2개</td>
+					<td class="right strong">78,000원</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="two-col">
+		<div class="info-card">
+			<h2 class="sub-title">배송 정보</h2>
+			<div class="info-rows">
+				<div class="price-row"><span class="label">받는 사람</span><span>김노지</span></div>
+				<div class="price-row"><span class="label">전화번호</span><span>010-0000-0000</span></div>
+				<div class="price-row"><span class="label">주소</span><span>서울특별시 마포구 노지로 12 숲속마을 101동 1001호</span></div>
+				<div class="price-row"><span class="label">요청사항</span><span>경비실에 맡겨 주세요.</span></div>
+			</div>
+		</div>
+		<div class="info-card">
+			<h2 class="sub-title">금액 · 상태</h2>
+			<div class="price-rows">
+				<div class="price-row"><span class="label">상품 합계</span><span>197,000원</span></div>
+				<div class="price-row"><span class="label">배송비</span><span>무료</span></div>
+				<div class="price-row total"><span class="label">결제 금액</span><span class="value">197,000원</span></div>
+			</div>
+			<form action="admin_orderList.html" method="post" class="status-form">
+				<input type="hidden" name="purchaseId" value="3">
+				<input type="hidden" name="from" value="detail">
+				<select name="status" class="select" aria-label="상태 변경" style="flex: 1;">
+					<option >주문 접수</option>
+					<option >배송 준비</option>
+					<option selected>배송 중</option>
+					<option >배송 완료</option>
+					<option >취소</option>
+				</select>
+				<button type="submit" class="btn btn-forest">상태 저장</button>
+			</form>
+		</div>
+	</div>
+</main>
+</body>
+</html>

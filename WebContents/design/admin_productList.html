@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- 노지마켓 디자인 파일 (Dreamweaver CS6용). 실제로 동작하는 사이트는 상위 폴더의 .jsp 파일입니다. -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>상품 관리 | 노지마켓</title>
+<link rel="icon" type="image/png" href="images/logo-mark.png">
+<link rel="stylesheet" href="css/design.css">
+</head>
+<body class="admin-body">
+<nav class="admin-nav" aria-label="관리자 메뉴">
+	<a href="admin_index.html" class="admin-brand">
+		<span class="mark"><img src="images/logo-mark.png" alt="" width="44" height="44"></span>
+		노지마켓 관리자
+	</a>
+	<a href="admin_index.html" class="menu ">관리자 홈</a>
+	<a href="admin_productList.html" class="menu active">상품 관리</a>
+	<a href="admin_orderList.html" class="menu ">주문 관리</a>
+	<a href="admin_userList.html" class="menu ">회원 관리</a>
+	<a href="index.html" class="menu to-user">사용자 화면으로 →</a>
+</nav>
+<main class="admin-main">
+	<div class="admin-top">
+		<div>
+			<h1>상품 관리</h1>
+			<p>등록된 상품 15개 · 주문 기록이 있는 상품은 삭제 대신 재고를 0으로 바꿔 품절로 표시해요.</p>
+		</div>
+		<div class="admin-user">
+			<a href="admin_productForm.html" class="btn btn-forest">+ 상품 등록</a>
+			<span><b>관리자</b>님</span>
+			<a href="index.html" class="btn btn-gray">로그아웃</a>
+		</div>
+	</div>
+	<div class="table-card">
+		<table class="data-table compact">
+			<thead>
+				<tr>
+					<th scope="col">사진</th>
+					<th scope="col">상품 이름</th>
+					<th scope="col">카테고리</th>
+					<th scope="col" class="right">가격</th>
+					<th scope="col" class="right">재고</th>
+					<th scope="col" class="right">판매</th>
+					<th scope="col" class="right">관리</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+							<img src="images/products/tent-dome.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">솔바람 패밀리 돔 텐트 4~5인</a></td>
+					<td><span class="badge-cat">텐트·타프</span></td>
+					<td class="right">289,000원</td>
+					<td class="right">
+							12개
+					</td>
+					<td class="right">1개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="솔바람 패밀리 돔 텐트 4~5인">
+								<input type="hidden" name="productId" value="1">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/tarp-recta.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">솔바람 렉타 타프 L</a></td>
+					<td><span class="badge-cat">텐트·타프</span></td>
+					<td class="right">159,000원</td>
+					<td class="right">
+							8개
+					</td>
+					<td class="right">0개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="솔바람 렉타 타프 L">
+								<input type="hidden" name="productId" value="2">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/tent-backpack.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">들풀 원터치 백패킹 텐트 2인</a></td>
+					<td><span class="badge-cat">텐트·타프</span></td>
+					<td class="right">129,000원</td>
+					<td class="right">
+							<span class="badge-stock low">2개 · 품절 임박</span>
+					</td>
+					<td class="right">0개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="들풀 원터치 백패킹 텐트 2인">
+								<input type="hidden" name="productId" value="3">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/sleeping-bag.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">별밤공방 머미형 동계 침낭</a></td>
+					<td><span class="badge-cat">침낭·매트</span></td>
+					<td class="right">119,000원</td>
+					<td class="right">
+							15개
+					</td>
+					<td class="right">1개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="별밤공방 머미형 동계 침낭">
+								<input type="hidden" name="productId" value="4">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/mat-self.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">별밤공방 자충 매트 5cm</a></td>
+					<td><span class="badge-cat">침낭·매트</span></td>
+					<td class="right">69,000원</td>
+					<td class="right">
+							20개
+					</td>
+					<td class="right">0개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="별밤공방 자충 매트 5cm">
+								<input type="hidden" name="productId" value="5">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/mat-foam.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">들풀 접이식 발포 매트</a></td>
+					<td><span class="badge-cat">침낭·매트</span></td>
+					<td class="right">29,000원</td>
+					<td class="right">
+							30개
+					</td>
+					<td class="right">0개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="들풀 접이식 발포 매트">
+								<input type="hidden" name="productId" value="6">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/chair-relax.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">하루캠프 릴렉스 체어</a></td>
+					<td><span class="badge-cat">캠핑 가구</span></td>
+					<td class="right">59,000원</td>
+					<td class="right">
+							25개
+					</td>
+					<td class="right">2개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="하루캠프 릴렉스 체어">
+								<input type="hidden" name="productId" value="7">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/table-roll.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">하루캠프 알루미늄 롤 테이블</a></td>
+					<td><span class="badge-cat">캠핑 가구</span></td>
+					<td class="right">89,000원</td>
+					<td class="right">
+							<span class="badge-stock out">품절</span>
+					</td>
+					<td class="right">0개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="하루캠프 알루미늄 롤 테이블">
+								<input type="hidden" name="productId" value="8">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/cot.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">하루캠프 경량 야전침대</a></td>
+					<td><span class="badge-cat">캠핑 가구</span></td>
+					<td class="right">99,000원</td>
+					<td class="right">
+							10개
+					</td>
+					<td class="right">0개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="하루캠프 경량 야전침대">
+								<input type="hidden" name="productId" value="9">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/stove-twin.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">모닥 투버너 가스 스토브</a></td>
+					<td><span class="badge-cat">버너·조리</span></td>
+					<td class="right">139,000원</td>
+					<td class="right">
+							7개
+					</td>
+					<td class="right">0개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="모닥 투버너 가스 스토브">
+								<input type="hidden" name="productId" value="10">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/cookset.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">모닥 스테인리스 코펠 세트 4인</a></td>
+					<td><span class="badge-cat">버너·조리</span></td>
+					<td class="right">49,000원</td>
+					<td class="right">
+							18개
+					</td>
+					<td class="right">1개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="모닥 스테인리스 코펠 세트 4인">
+								<input type="hidden" name="productId" value="11">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/griddle.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">모닥 무쇠 그리들 팬 33cm</a></td>
+					<td><span class="badge-cat">버너·조리</span></td>
+					<td class="right">45,000원</td>
+					<td class="right">
+							14개
+					</td>
+					<td class="right">0개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="모닥 무쇠 그리들 팬 33cm">
+								<input type="hidden" name="productId" value="12">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/lantern-led.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">노을빛 충전식 LED 랜턴</a></td>
+					<td><span class="badge-cat">랜턴·조명</span></td>
+					<td class="right">39,000원</td>
+					<td class="right">
+							22개
+					</td>
+					<td class="right">2개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="노을빛 충전식 LED 랜턴">
+								<input type="hidden" name="productId" value="13">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/lantern-oil.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">노을빛 클래식 오일 랜턴</a></td>
+					<td><span class="badge-cat">랜턴·조명</span></td>
+					<td class="right">32,000원</td>
+					<td class="right">
+							9개
+					</td>
+					<td class="right">0개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="노을빛 클래식 오일 랜턴">
+								<input type="hidden" name="productId" value="14">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+							<img src="images/products/headlamp.png" alt="" class="thumb" width="800" height="500">
+					</td>
+					<td class="strong"><a href="productDetail.html" class="plain-link">노을빛 헤드랜턴 400루멘</a></td>
+					<td><span class="badge-cat">랜턴·조명</span></td>
+					<td class="right">25,000원</td>
+					<td class="right">
+							40개
+					</td>
+					<td class="right">1개</td>
+					<td>
+						<div class="action-cell">
+							<a href="admin_productForm.html" class="btn btn-gray">수정</a>
+							<form action="admin_productList.html" method="post" data-name="노을빛 헤드랜턴 400루멘">
+								<input type="hidden" name="productId" value="15">
+								<button type="submit" class="btn btn-danger">삭제</button>
+							</form>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</main>
+</body>
+</html>

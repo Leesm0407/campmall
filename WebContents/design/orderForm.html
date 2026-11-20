@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- 노지마켓 디자인 파일 (Dreamweaver CS6용). 실제로 동작하는 사이트는 상위 폴더의 .jsp 파일입니다. -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>주문서 작성 | 노지마켓</title>
+<link rel="icon" type="image/png" href="images/logo-mark.png">
+<link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+<header class="site-header">
+	<div class="header-inner">
+		<a href="index.html" class="logo" aria-label="노지마켓 처음 화면">
+			<img src="images/logo-mark.png" alt="" width="44" height="44">
+			<span class="logo-text"><b>노지마켓</b><small>NOJI MARKET</small></span>
+		</a>
+		<nav class="main-nav" aria-label="주 메뉴">
+			<a href="productList_tent.html" class="">텐트·타프</a>
+			<a href="productList.html" class="">침낭·매트</a>
+			<a href="productList.html" class="">캠핑 가구</a>
+			<a href="productList.html" class="">버너·조리</a>
+			<a href="productList.html" class="">랜턴·조명</a>
+			<a href="myOrder.html" class="">주문 내역</a>
+		</nav>
+		<div class="header-actions">
+			<a href="cart.html" class="btn btn-gray cart-link">장바구니 <span class="cart-count">2</span></a>
+					<span class="hello"><b>김노지</b>님</span>
+					<a href="index.html" class="btn btn-gray">로그아웃</a>
+		</div>
+	</div>
+</header>
+<main class="site-main">
+<div class="page">
+	<div class="page-head">
+		<h1>주문서 작성</h1>
+		<p>배송 받을 곳을 적어 주세요. 이 사이트는 결제 연동 없이 주문만 접수돼요.</p>
+	</div>
+	<form class="order-wrap" name="orderForm" action="myOrder.html" method="post">
+		<section class="order-form">
+			<div class="info-card">
+				<h2 class="sub-title">배송 정보</h2>
+				<div class="field">
+					<label for="receiver">받는 사람</label>
+					<input type="text" id="receiver" name="receiver" class="input" maxlength="30" value="김노지" autocomplete="name">
+				</div>
+				<div class="field">
+					<label for="phone">전화번호</label>
+					<input type="tel" id="phone" name="phone" class="input" maxlength="13" placeholder="010-1234-5678" value="010-0000-0000" autocomplete="tel">
+				</div>
+				<div class="field">
+					<label for="address">주소</label>
+					<input type="text" id="address" name="address" class="input" maxlength="200" placeholder="도로명 주소와 상세 주소" autocomplete="street-address">
+				</div>
+				<div class="field">
+					<label for="memo">요청사항 <span class="muted">(선택)</span></label>
+					<input type="text" id="memo" name="memo" class="input" maxlength="200" placeholder="예) 문 앞에 놓아 주세요.">
+				</div>
+			</div>
+		</section>
+		<aside class="summary-box" aria-label="주문 상품과 금액">
+			<h2>주문 상품 2개</h2>
+			<div class="mini-items">
+				<div class="mini-item"><span>솔바람 패밀리 돔 텐트 4~5인 x 1</span><span>289,000원</span></div>
+				<div class="mini-item"><span>노을빛 충전식 LED 랜턴 x 2</span><span>78,000원</span></div>
+			</div>
+			<div class="price-rows">
+				<div class="price-row"><span class="label">상품 합계</span><span>367,000원</span></div>
+				<div class="price-row"><span class="label">배송비</span><span>무료</span></div>
+				<div class="price-row total"><span class="label">결제 금액</span><span class="value">367,000원</span></div>
+			</div>
+			<button type="submit" name="ok" class="btn btn-orange btn-lg btn-block">367,000원 주문하기</button>
+			<a href="cart.html" class="btn btn-gray btn-block">장바구니로 돌아가기</a>
+		</aside>
+	</form>
+</div>
+</main>
+<footer class="site-footer">
+	<div class="footer-inner">
+		<span class="footer-brand">노지마켓 NOJI MARKET</span>
+		<span>고객센터 02-000-0000 · 평일 10:00~18:00 · 5만 원 이상 무료배송</span>
+		<span>웹프로그래밍응용 텀프로젝트 · 상품명·브랜드·사진은 모두 가상의 예시</span>
+	</div>
+</footer>
+</body>
+</html>

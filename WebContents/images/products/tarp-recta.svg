@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>렉타 타프</title>
+  <rect width="800" height="500" fill="#E7EFE4"/>
+  <circle cx="135" cy="100" r="40" fill="#FFFFFF" opacity=".6"/>
+  <path d="M0 395 Q200 360 400 385 T800 375 V500 H0 Z" fill="#D3E2CF"/>
+  <path d="M170 405 L300 380 L690 380 L620 405 Z" fill="#1F3D2B" opacity=".1"/>
+  <path d="M250 150 V400 M560 150 V400" stroke="#8B5E3C" stroke-width="9" stroke-linecap="round"/>
+  <path d="M160 235 L250 150 L560 150 L660 235 Z" fill="#D9A35B"/>
+  <path d="M160 235 L250 150 L405 150 L410 235 Z" fill="#E7B873"/>
+  <path d="M160 235 H660" stroke="#B9833F" stroke-width="5" stroke-linecap="round"/>
+  <path d="M250 150 L120 110 M560 150 L700 110 M160 235 L110 405 M660 235 L710 405" stroke="#8B5E3C" stroke-width="3"/>
+  <circle cx="110" cy="405" r="4" fill="#8B5E3C"/><circle cx="710" cy="405" r="4" fill="#8B5E3C"/>
+  <rect x="360" y="335" width="90" height="10" rx="3" fill="#7FA58A"/>
+  <path d="M370 345 L360 395 M440 345 L450 395" stroke="#6B7280" stroke-width="5" stroke-linecap="round"/>
+</svg>

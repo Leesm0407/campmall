@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>알루미늄 롤 테이블</title>
+  <rect width="800" height="500" fill="#F0E9DF"/>
+  <circle cx="135" cy="100" r="40" fill="#FFFFFF" opacity=".6"/>
+  <path d="M0 400 Q200 370 400 392 T800 385 V500 H0 Z" fill="#E3D8C8"/>
+  <ellipse cx="400" cy="408" rx="250" ry="18" fill="#1F3D2B" opacity=".1"/>
+  <path d="M230 270 L330 400 M330 270 L230 400 M470 270 L570 400 M570 270 L470 400" stroke="#6B7280" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 400 H340 M460 400 H580" stroke="#4B5563" stroke-width="8" stroke-linecap="round"/>
+  <path d="M170 255 L250 200 L630 200 L630 230 L550 285 L170 285 Z" fill="#B8BEC6"/>
+  <path d="M170 255 L250 200 L630 200 L550 255 Z" fill="#D5D9DE"/>
+  <path d="M170 255 H550 V285 H170 Z" fill="#9AA3AD"/>
+  <path d="M550 255 L630 200 V230 L550 285 Z" fill="#8A939D"/>
+  <path d="M245 255 L320 200 M320 255 L395 200 M395 255 L470 200 M470 255 L545 200" stroke="#B8BEC6" stroke-width="4"/>
+  <rect x="300" y="160" width="46" height="42" rx="6" fill="#2F6B45"/>
+  <path d="M346 172 C362 172 362 192 346 192" stroke="#2F6B45" stroke-width="5" fill="none"/>
+  <ellipse cx="450" cy="198" rx="44" ry="10" fill="#FFFFFF"/>
+  <ellipse cx="450" cy="195" rx="28" ry="6" fill="#E0A23B"/>
+</svg>

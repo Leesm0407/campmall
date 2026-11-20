@@ -1,0 +1,20 @@
+# 컴파일 결과 (Eclipse가 다시 만듦)
+build/
+bin/
+
+# 내 PC의 DB 접속 정보 → src/main/java/pool.jocl.example 을 복사해서 각자 만드세요
+src/main/java/pool.jocl
+
+# 작업 메모·예전 백업·수업 실습 복사본 (저장소에 올리지 않음)
+CLAUDE.md
+PROMPTS.md
+_backup_original/
+pro0928/
+
+# 운영체제·편집기 임시 파일
+Thumbs.db
+desktop.ini
+.DS_Store
+*.bak
+.vscode/
+_notes/
