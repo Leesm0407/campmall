@@ -32,7 +32,8 @@
 [그림]  모든 그림은 <img> 태그 → 디자인 보기에서 클릭 -> 속성 패널(Ctrl+F3)의 Src·W·H로 교체
   images\logo-mark.png        로고 (헤더용 88x88)
   images\modak-logo.png       로고 큰 그림 (512x512, 투명 배경)
-  images\hero.png             메인 배너 (1920x560)
+  images\hero.jpg             메인 배너 (1920x768, 원본을 2.5:1로 잘라 왼쪽만 어둡게 한 것)
+  images\banner-original.jpg  메인 배너 원본 사진 (1198x671, 자르기 전)
   images\products\*.png       상품 사진 (800x500, 가로:세로 16:10)
   images\icons\*.png          카테고리·안내 아이콘
   images\admin-nav-bg.png     관리자 왼쪽 메뉴 배경색 (세로 반복)
