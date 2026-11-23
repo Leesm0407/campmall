@@ -25,7 +25,7 @@
 <title>모닥 - 캠핑용품 쇼핑몰</title>
 <link rel="icon" type="image/png" href="images/logo-mark.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=20261123">
 </head>
 <body class="page-white">
 <%@ include file="common/header.jsp" %>

@@ -48,7 +48,7 @@
 <title>관리자 홈 | 모닥</title>
 <link rel="icon" type="image/png" href="../images/logo-mark.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/style.css?v=20261123">
 </head>
 <body class="admin-body">
 <%@ include file="sidebar.jsp" %>

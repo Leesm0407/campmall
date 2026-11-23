@@ -28,7 +28,7 @@
 <meta charset="UTF-8">
 <title>아이디 중복 확인 | 모닥</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=20261123">
 </head>
 <body class="page-white">
 <div class="popup">
