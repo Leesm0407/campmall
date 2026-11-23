@@ -34,7 +34,7 @@
 	<section class="hero">
 		<div class="hero-inner">
 			<span class="hero-eyebrow">MODAK</span>
-			<h1>오늘 밤은 노지에서</h1>
+			<h1>오늘 밤은 모닥에서</h1>
 			<p>텐트부터 랜턴까지, 캠핑에 필요한 장비를 한곳에서</p>
 			<div class="hero-actions">
 				<a href="productList.jsp" class="btn">전체 상품 보기</a>

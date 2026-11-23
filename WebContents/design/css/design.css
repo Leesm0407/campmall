@@ -83,9 +83,10 @@ form { margin: 0; }
 .footer-brand { font-size: 16px; font-weight: 700; color: #FFFFFF; }
 
 /* ---------- 메인 배너 (<img> 위에 글자를 겹침) ---------- */
-.hero { position: relative; height: 500px; overflow: hidden; background: #1F3D2B; }
-.hero-img { position: absolute; right: 0; top: -40px; width: 1920px; height: 560px; max-width: none; }
-.hero-inner { position: relative; width: 1200px; max-width: 100%; margin: 0 auto; padding: 110px 24px 0; }
+/* 배너 사진은 가로 100%, 세로 auto → 화면 폭에 맞춰 비율 그대로 커지고 작아짐(늘어나지 않음) */
+.hero { position: relative; overflow: hidden; background: #1F3D2B; }
+.hero-img { display: block; width: 100%; height: auto; max-width: none; }
+.hero-inner { position: absolute; top: 0; left: 50%; width: 1200px; margin-left: -600px; padding: 7% 24px 0; }
 .hero-eyebrow { display: block; font-size: 14px; font-weight: 700; letter-spacing: 3px; color: #F6C77A; margin-bottom: 14px; }
 .hero h1 { font-size: 46px; line-height: 1.25; font-weight: 700; color: #FFFFFF; margin-bottom: 14px; }
 .hero p { font-size: 18px; font-weight: 500; color: #FFFFFF; }
@@ -350,7 +351,7 @@ a.stat-card:hover { border-color: #1F3D2B; color: #1F2937; }
 @media (max-width: 760px) {
 	.main-nav, .header-actions { float: none; clear: both; margin: 8px 0 0; }
 	.hero h1 { font-size: 32px; }
-	.hero-inner { padding-top: 60px; }
+	.hero-inner { position: static; width: auto; margin: 0; padding: 30px 16px; background: #1F3D2B; }
 	.grid-3 > *, .grid-4 > *, .grid-5 > *, .stat-grid > * { width: 48%; }
 	.detail-main, .buy-box, .cart-list, .summary-box, .order-form, .two-col > div, .two-col > div + div { float: none; width: 100%; margin-bottom: 20px; }
 	.form-card .field { float: none; width: 100%; }

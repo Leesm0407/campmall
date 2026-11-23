@@ -87,9 +87,9 @@ h1, h2, h3, p { margin: 0; }
 
 /* ---------- 메인 배너 ---------- */
 .hero {
-	background-color: #1F3D2B;
-	background: linear-gradient(90deg, rgba(31,61,43,.88) 0%, rgba(31,61,43,.62) 42%, rgba(31,61,43,.08) 75%),
-	            url("../images/banner.svg") center right / cover no-repeat;
+	/* 배너 사진(hero-modak.jpg): 왼쪽 문구 자리는 사진에 숲색이 미리 입혀져 있음.
+	   cover = 비율을 유지한 채 칸을 채움(늘어나지 않고 넘치는 부분만 잘림) */
+	background: #1F3D2B url("../images/hero-modak.jpg") center 60% / cover no-repeat;
 	padding: 104px 24px 96px;
 }
 .hero-inner { max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px; }
@@ -435,7 +435,7 @@ a.stat-card:hover { border-color: #1F3D2B; color: #1F2937; }
 @media (max-width: 720px) {
 	.hero {
 		background: linear-gradient(rgba(31,61,43,.74), rgba(31,61,43,.74)),
-		            url("../images/banner.svg") 70% center / cover no-repeat;
+		            url("../images/hero-modak.jpg") 30% center / cover no-repeat;
 		padding: 64px 20px 56px;
 	}
 	.hero h1 { font-size: 32px; }
