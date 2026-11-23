@@ -26,7 +26,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>아이디 중복 확인 | 노지마켓</title>
+<title>아이디 중복 확인 | 모닥</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="css/style.css">
 </head>

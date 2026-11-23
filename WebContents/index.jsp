@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page import="java.sql.*,java.util.*,my.util.*,my.dao.*,my.model.*" %>
 <%
-	// 노지마켓 메인 : 인기 상품 4개 (판매 수량 기준, 취소 제외) - CHAPTER10/catalog.jsp 흐름
+	// 모닥 메인 : 인기 상품 4개 (판매 수량 기준, 취소 제외) - CHAPTER10/catalog.jsp 흐름
 	request.setCharacterEncoding("utf-8");
 	Connection conn = ConnectionProvider.getConnection();
 	List<Product> list = null;
@@ -22,8 +22,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>노지마켓 - 캠핑용품 쇼핑몰</title>
-<link rel="icon" type="image/svg+xml" href="images/logo-mark.svg">
+<title>모닥 - 캠핑용품 쇼핑몰</title>
+<link rel="icon" type="image/png" href="images/logo-mark.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -33,7 +33,7 @@
 <main class="site-main">
 	<section class="hero">
 		<div class="hero-inner">
-			<span class="hero-eyebrow">NOJI MARKET</span>
+			<span class="hero-eyebrow">MODAK</span>
 			<h1>오늘 밤은 노지에서</h1>
 			<p>텐트부터 랜턴까지, 캠핑에 필요한 장비를 한곳에서</p>
 			<div class="hero-actions">

@@ -7,8 +7,8 @@
 <c:set var="adminUri" value="${pageContext.request.requestURI}"/>
 <nav class="admin-nav" aria-label="관리자 메뉴">
 	<a href="index.jsp" class="admin-brand">
-		<span class="mark"><img src="../images/logo-mark.svg" alt=""></span>
-		노지마켓 관리자
+		<span class="mark"><img src="../images/logo-mark.png" alt=""></span>
+		모닥 관리자
 	</a>
 	<a href="index.jsp" class="menu ${fn:endsWith(adminUri, '/admin/index.jsp') || fn:endsWith(adminUri, '/admin/') ? 'active' : ''}">관리자 홈</a>
 	<a href="productList.jsp" class="menu ${fn:contains(adminUri, '/admin/product') ? 'active' : ''}">상품 관리</a>

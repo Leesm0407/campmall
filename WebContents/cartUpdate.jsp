@@ -52,7 +52,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장바구니 | 노지마켓</title>
+<title>장바구니 | 모닥</title>
 </head>
 <body>
 <script>

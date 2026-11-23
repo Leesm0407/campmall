@@ -45,7 +45,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>주문 취소 | 노지마켓</title>
+<title>주문 취소 | 모닥</title>
 </head>
 <body>
 <script>

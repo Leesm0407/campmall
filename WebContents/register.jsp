@@ -46,7 +46,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>회원가입 | 노지마켓</title>
+<title>회원가입 | 모닥</title>
 </head>
 <body>
 <script>

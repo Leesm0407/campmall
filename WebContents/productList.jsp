@@ -37,8 +37,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${empty category ? '전체 상품' : category} | 노지마켓</title>
-<link rel="icon" type="image/svg+xml" href="images/logo-mark.svg">
+<title>${empty category ? '전체 상품' : category} | 모닥</title>
+<link rel="icon" type="image/png" href="images/logo-mark.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="css/style.css">
 </head>

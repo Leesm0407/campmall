@@ -9,9 +9,9 @@
 <c:set var="navCategories" value="<%=my.model.Product.CATEGORIES%>"/>
 <header class="site-header">
 	<div class="header-inner">
-		<a href="index.jsp" class="logo" aria-label="노지마켓 처음 화면">
-			<img src="images/logo-mark.svg" alt="">
-			<span class="logo-text"><b>노지마켓</b><small>NOJI MARKET</small></span>
+		<a href="index.jsp" class="logo" aria-label="모닥 처음 화면">
+			<img src="images/logo-mark.png" alt="">
+			<span class="logo-text"><b>모닥</b><small>MODAK</small></span>
 		</a>
 		<nav class="main-nav" aria-label="주 메뉴">
 			<c:forEach var="navCat" items="${navCategories}">

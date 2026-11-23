@@ -1,4 +1,4 @@
-노지마켓(NOJI MARKET) 디자인 파일 - Dreamweaver CS6용
+모닥(MODAK) 디자인 파일 - Dreamweaver CS6용
 =====================================================
 
 [처음 열 파일]  index.html  (메인 화면)
@@ -30,7 +30,8 @@
   admin_userList.html        관리자 - 회원 관리
 
 [그림]  모든 그림은 <img> 태그 → 디자인 보기에서 클릭 -> 속성 패널(Ctrl+F3)의 Src·W·H로 교체
-  images\logo-mark.png        로고
+  images\logo-mark.png        로고 (헤더용 88x88)
+  images\modak-logo.png       로고 큰 그림 (512x512, 투명 배경)
   images\hero.png             메인 배너 (1920x560)
   images\products\*.png       상품 사진 (800x500, 가로:세로 16:10)
   images\icons\*.png          카테고리·안내 아이콘
